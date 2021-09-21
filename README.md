@@ -1,6 +1,8 @@
 # TQ-1500
 Connecting antique electronic go board with modern A.I.
 
+<img src=TQ-1500-goban.png width="50%">
+
 ## Goal
 This project is an attempt to add modern features to a 40-year-old electronic Go board. The ultimate goal is to reuse the TQ-1500 hardware and connect it to GO A.I. programs.
 
