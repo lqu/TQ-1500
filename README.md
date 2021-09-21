@@ -12,7 +12,7 @@ This project is an attempt to add modern features to a 40-year-old electronic Go
 * Repeat until game ends
 
 ## Background
-TQ-1500 is an electronic Go board produced by National/Matsushita/Panasonic in 1981, when Japan had the best electrical engineers and best Go players of the world. Initially it was sold at ¥198,000 (about $2,000). It has following features.
+TQ-1500 is an electronic Go board produced by National/Matsushita/Panasonic in 1981, when Japan had a prosperous economy, strong electronics industry, and the best Go players of the world. Initially it was sold at ¥198,000 (about $2,000). It has following features.
 1. Magnetic Go stones tells its internal computer where the last move was placed
 2. Four arrays of LEDs around the board to indicate where the next move should be in (X, Y) coordinate
 3. "REPLAY Mode" guides users through a game by flashing LEDs
