@@ -22,3 +22,6 @@ TQ-1500 is an electronic Go board produced by National/Matsushita/Panasonic in 1
     4. Voice to indicate who plays next (black or white), and to remind the user to pick up the captured stones
     5. Occationally, hides the next move and let user guess
 4. "RECORD Mode" saves user game to internal memory or magnetic cards for later replay
+
+## Video
+https://youtu.be/xoZWydwXgu4
