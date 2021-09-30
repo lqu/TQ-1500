@@ -4,10 +4,10 @@ There are 76 LEDs (4 x 19) around the board, one LED at either end of each line.
 There are effectively 38 distinct LEDs, so 6 bits (2 ^ 6 = 64) should be enough to control them. There are 6 GPIO lines from the processor, 3 for the group and 3 for the index. A BCD to decimal decoder/demultiplexer will decode the 'group' and 'index' respectively and combine them to select a specific line. Decoded 'group' will drive the anodes of the LEDs, active HIGH; decoded 'index' will drive the cathodes of the LEDs, active LOW.
 
 <pre>
-      Y
+      X
   ┌───────►
   │
-X │
+Y │
   │
   ▼     │        Group 0                │        Group 1               │ Group 2
         └───────────────────────────    └───────────────────────────   └────────
@@ -53,4 +53,4 @@ X │
 </pre>
 
 # Example
-To highlight the top right start position (4, 16), we need to turn on LED #7 in Group 1 and LED #3 in Group 3. The GPIO lines will be 001111 for LED-1-7; and 011011 for LED-3-3. Only one LED can be turned on this way. The two LEDs for X and Y dimension must time-share.
+To highlight the top right start position (X=16, Y=4), we need to turn on LED #7 in Group 1 and LED #3 in Group 3. The GPIO lines will be 001111 for LED-1-7; and 011011 for LED-3-3. Only one LED can be turned on this way. The two LEDs for X and Y dimension must time-share.
