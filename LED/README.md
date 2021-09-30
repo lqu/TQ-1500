@@ -56,6 +56,6 @@ Y │
 To highlight the top right STAR position (X=16, Y=4) --'$' above -- we need to turn on LED #7 in Group 1 and LED #3 in Group 3. The GPIO lines will be 001111 for LED-1-7; and 011011 for LED-3-3. Only one LED can be turned on this way. The two LEDs for X and Y dimensions must time-share. Signal alternates every 8 ms.
 
 # Example 2 
-For position (X=15, Y=17) -- '¥' above -- it's LED-1-6 and LED-5-0.
+For position (X=15, Y=17) -- '¥' above -- it's LED-1-6 and LED-5-0. Control will be 001110 and 101000.
 
 <img src=scope-15-17.png width="50%">
