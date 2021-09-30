@@ -57,3 +57,5 @@ To highlight the top right STAR position (X=16, Y=4) --'$' above -- we need to t
 
 # Example 2 
 For position (X=15, Y=17) -- '¥' above -- it's LED-1-6 and LED-5-0.
+
+<img src=scope-15-17.png width="50%">
