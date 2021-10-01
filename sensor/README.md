@@ -1,7 +1,7 @@
 # Design
 At first glance one would think the stone sensing mechanism uses interrupts like the modern touchscreen. This might be true since there are co-processors dedicated to this purpose, and pass the result to the main processor. But on the low level, TQ-1500 treats it as memory, like the magnetic-core memory. It continuously polls each of the 361 intersections to see if a stone is newly placed. It captures the state change (placed or removed), but doesn't keep the current status (occupied or empty).
 
-There are 19 vertical wires and 19 horizontal wires underneath the board surface. A vertial wires is 5V when selected, horizontal GROUND. When 2 wires meet at each intersection, they make coils on a shared cylinder. The crossing wires are not connected, but when in a magnetic field, the coils act like a transformer and there will be a glitch/runt in the voltage to be captured.
+There are 19 vertical wires and 19 horizontal wires underneath the board surface. A vertial wire is 5V when selected, horizontal GROUND. When 2 wires meet at each intersection, they make coils on a shared cylinder. The crossing wires are not connected, but when in a magnetic field, the coils act like a transformer and there will be a glitch/runt in the voltage to be captured.
 
 The stones have magnetic parts built in. When placed or removed, the magnetic field changes, which contributes to the glitch/runt.
 
