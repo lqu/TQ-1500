@@ -8,3 +8,6 @@ The stones have magnetic parts built in. When placed or removed, the magnetic fi
 Logically, the grid is scanned in a 19x19 nested loop continuously. Physically, shift registers are used to select the next wire. Every step takes 400 us, so every line on the board takes about 8 ms. To scan the whole board it's about 160ms, or 6 Hz. It is fast enough to capture human hand movements.
 
 When the processor detects a glitch/runt in the voltage, it knows which vertical and horizontal wires are currently selected, which tells where the stone is placed. On an oscilloscope, we measure the difference between the start of the nested loop and the time the glitch/runt happens to calculate where the stone is placed. So the problem of WHERE is solved by knowing WHEN.
+
+# Demo
+<a href="https://youtu.be/bisQuBjdLmM"> <img src="https://img.youtube.com/vi/bisQuBjdLmM/0.jpg" > </a>
