@@ -25,5 +25,14 @@ TQ-1500 is an electronic Go board produced by National/Matsushita/Panasonic in 1
     5. Occationally, hides the next move and let user guess
 4. "RECORD Mode" saves user game to internal memory or magnetic cards for later replay
 
-## Video
+## Prototype Demo Video
 https://youtu.be/xoZWydwXgu4
+
+## How it worked
+To understand how it worked, see reverse engineering in [LED folder](LED/) and [sensor notebook](sensor/rigol-search.ipynb)
+
+LED signal capture
+![LED test](LED/scope-15-17.png)
+
+Sensor signal capture
+![sensor test](sensor/search-2.png)
