@@ -28,7 +28,7 @@ make -j 4
 
 ### Caveats
 * If you don't have latest cmake, [download here](https://github.com/Kitware/CMake/releases/download/v3.28.0-rc5/cmake-3.28.0-rc5.tar.gz)
-* Before Katago v1.8.0, Katago had problems compiling on the NX, because the processor (ARMv8/aarch64) doesn't support sse instructions (an Intel feature). [This commit}(https://github.com/lightvector/KataGo/commit/0e6ca47368b190f0b84e4f9dd0f63c2717ecc96d) fixed the bug.
+* Before Katago v1.8.0, Katago had problems compiling on the NX, because the processor (ARMv8/aarch64) doesn't support sse instructions (an Intel feature). [This commit](https://github.com/lightvector/KataGo/commit/0e6ca47368b190f0b84e4f9dd0f63c2717ecc96d) fixed the bug.
 
 ## References
 * https://zhuanlan.zhihu.com/p/183193381
